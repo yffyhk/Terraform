@@ -1,4 +1,4 @@
-resource "google_compute_instance_group" "k8s_ig__0126f0d3e2a96ffe" {
+resource "google_compute_instance_group" "k8s_ig__0126f0d3e2a96ffe2" {
   instances = ["https://www.googleapis.com/compute/beta/projects/k8slab-316013/zones/asia-southeast1-b/instances/gke-k8s-cluster-default-pool-fbfbd6a0-g92d", "https://www.googleapis.com/compute/beta/projects/k8slab-316013/zones/asia-southeast1-b/instances/gke-k8s-cluster-default-pool-fbfbd6a0-w4kd"]
   name      = "k8s-ig--0126f0d3e2a96ffe"
 

@@ -4,6 +4,6 @@ provider "google" {
 
 
 module "gcp" {
-  source = ".\\gcp"
+  source = "./gcp"
 }
 
